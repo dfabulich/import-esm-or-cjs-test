@@ -1,3 +1,1 @@
-import library from 'library';
-
-console.log(library);
+console.log((await import('library')).default);
