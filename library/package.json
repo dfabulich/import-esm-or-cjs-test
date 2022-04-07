@@ -2,7 +2,7 @@
   "name": "library",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.cjs",
+  "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "exports": {
-    "require": "./hello.cjs",
-    "import": "./hello.mjs"
+    "require": "./hello.js",
+    "import": "./esm/hello.js"
   }
 }
